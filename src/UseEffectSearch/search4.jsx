@@ -50,7 +50,7 @@ import usePrevState from "../hooks/usePrevState";
         clearTimeout(debounceSearch);
       };
     }
-  }, [term, result.length, prevTerm]);
+  }, [term, result.length, prevTerm]) ;
 
   //init render
   //useEffect -> check length -> search() -> update resualt
